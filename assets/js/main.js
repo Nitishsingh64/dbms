@@ -61,13 +61,13 @@
     
     // Parallaxmouse js
     
-    function parallaxMouse() {
+    /*function parallaxMouse() {
         if ($('#parallax').length) {
             var scene = document.getElementById('parallax');
             var parallax = new Parallax(scene);
         };
     };
-    parallaxMouse();
+    parallaxMouse();*/
     
     
     //===== Progress Bar
