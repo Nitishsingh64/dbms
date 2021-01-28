@@ -72,7 +72,7 @@
     
     //===== Progress Bar
     
-    if($('.progress-line').length){
+    if($('.progress-line').length){     //cannot eremove this as this wil show progress in menu bar
         $('.progress-line').appear(function(){
             var el = $(this);
             var percent = el.data('width');
@@ -83,20 +83,20 @@
     
     //===== Counter Up
     
-    $('.counter').counterUp({
+    /*$('.counter').counterUp({
         delay: 10,
         time: 1600,
-    });
+    });*/
     
     
     //===== Magnific Popup
     
-    $('.image-popup').magnificPopup({
+    /*$('.image-popup').magnificPopup({
       type: 'image',
       gallery:{
         enabled:true
       }
-    });
+    });*/
     
     
     //===== Back to top
@@ -111,7 +111,7 @@
     });
     
     
-    //Animate the scroll to yop
+    //Animate the scroll to yop(after removing this direct reaches top without scrolling)
     $('.back-to-top').on('click', function(event) {
         event.preventDefault();
         
